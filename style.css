@@ -1,0 +1,44 @@
+.container {
+  /* display type  */
+  display: grid;
+
+  /* specify columns */
+  /* grid-template-columns: 25% 25% 25% 25%; */
+  /* or */
+  /* grid-template-columns: repeat(3, 1fr); */
+  /* have it be responsive, with the pixel amount be the column size */
+  grid-template-columns: repeat(auto-fit, 500px);
+
+  /* specify rows */
+  /* grid-template-rows: 500px 500px; */
+  /* or */
+  grid-template-rows: repeat(2, 500px);
+
+  /* specify gap */
+  grid-row-gap: 5px;
+  grid-column-gap: 15px;
+}
+
+.one {
+  background-color: aquamarine;
+}
+
+.two {
+  background-color: orangered;
+}
+
+.three {
+  background-color: blueviolet;
+}
+
+.four {
+  background-color: burlywood;
+}
+
+.five {
+  background-color: deeppink;
+}
+
+.six {
+  background-color: tomato;
+}
